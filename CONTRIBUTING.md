@@ -1,6 +1,6 @@
 # Contributing Guide
 
-First off — thank you for your interest in contributing to this project!  
+First off — thank you for your interest in contributing to this project!
 We welcome contributions from everyone and truly appreciate your help in improving our MCP index system or adding new MCP servers.
 
 ## What Can You Contribute?
