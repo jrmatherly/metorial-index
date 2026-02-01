@@ -34,12 +34,13 @@
       "outliers": [],
       "metadata": {
         "firstSeen": "2026-01-31T20:08:15.535Z",
-        "lastSeen": "2026-01-31T20:08:15.535Z",
+        "lastSeen": "2026-02-01T04:20:02.068Z",
         "source": "auto-detected",
         "tags": [
           "api",
           "response-envelope"
-        ]
+        ],
+        "approvedAt": "2026-02-01T04:20:02.068Z"
       },
       "severity": "info",
       "autoFixable": false
@@ -76,17 +77,18 @@
       "outliers": [],
       "metadata": {
         "firstSeen": "2026-01-31T20:08:15.535Z",
-        "lastSeen": "2026-01-31T20:08:15.535Z",
+        "lastSeen": "2026-02-01T04:20:02.116Z",
         "source": "auto-detected",
         "tags": [
           "api",
           "response-envelope"
-        ]
+        ],
+        "approvedAt": "2026-02-01T04:20:02.116Z"
       },
       "severity": "info",
       "autoFixable": false
     }
   ],
-  "lastUpdated": "2026-01-31T20:08:15.565Z",
-  "checksum": "f8391fa49b2d4799"
+  "lastUpdated": "2026-02-01T04:20:20.161Z",
+  "checksum": "b7dad2f209a2f30b"
 }

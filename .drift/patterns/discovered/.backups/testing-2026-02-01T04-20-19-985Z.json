@@ -1,0 +1,4904 @@
+{
+  "version": "1.0.0",
+  "category": "testing",
+  "patterns": [
+    {
+      "id": "67f93b81a0a0cf4d",
+      "subcategory": "test-structure",
+      "name": "Test Structure Detector",
+      "description": "Learns test structure patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/test-structure",
+          "patternId": "testing/test-structure/unknown"
+        }
+      },
+      "confidence": {
+        "frequency": 1,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 2371,
+        "score": 0.77,
+        "level": "medium"
+      },
+      "locations": [
+        {
+          "file": ".github/workflows/update-index.yml",
+          "line": 23,
+          "column": 23,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xcathiefish/mcp/mcp/listing.yaml",
+          "line": 2,
+          "column": 43,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xdaef0f/job-searchoor/job-searchoor/listing.yaml",
+          "line": 7,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xdaef0f/job-searchoor/job-searchoor/listing.yaml",
+          "line": 9,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xdwong/sui-mcp/sui-mcp/listing.yaml",
+          "line": 9,
+          "column": 17,
+          "isOutlier": false,
+          "confidence": 0.6533333333333333
+        },
+        {
+          "file": "catalog/0xdwong/sui-mcp/sui-mcp/listing.yaml",
+          "line": 3,
+          "column": 49,
+          "isOutlier": false,
+          "confidence": 0.6533333333333333
+        },
+        {
+          "file": "catalog/0xdwong/sui-mcp/sui-mcp/tools.yaml",
+          "line": 12,
+          "column": 15,
+          "isOutlier": false,
+          "confidence": 0.595
+        },
+        {
+          "file": "catalog/0xdwong/sui-mcp/sui-mcp/tools.yaml",
+          "line": 33,
+          "column": 15,
+          "isOutlier": false,
+          "confidence": 0.595
+        },
+        {
+          "file": "catalog/0xdwong/sui-mcp/sui-mcp/tools.yaml",
+          "line": 60,
+          "column": 15,
+          "isOutlier": false,
+          "confidence": 0.595
+        },
+        {
+          "file": "catalog/0xhijo/mcp_twitter/mcp_twitter/tools.yaml",
+          "line": 15,
+          "column": 27,
+          "isOutlier": false,
+          "confidence": 0.595
+        },
+        {
+          "file": "catalog/0xhijo/mcp_twitter/mcp_twitter/tools.yaml",
+          "line": 43,
+          "column": 22,
+          "isOutlier": false,
+          "confidence": 0.595
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 5,
+          "column": 33,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 29,
+          "column": 61,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 53,
+          "column": 34,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 79,
+          "column": 35,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 105,
+          "column": 38,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 131,
+          "column": 33,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 155,
+          "column": 35,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 181,
+          "column": 34,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 207,
+          "column": 33,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 231,
+          "column": 41,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 257,
+          "column": 33,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 281,
+          "column": 39,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 307,
+          "column": 59,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 333,
+          "column": 36,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 359,
+          "column": 29,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xshellming/mcp-summarizer/mcp-summarizer/listing.yaml",
+          "line": 3,
+          "column": 63,
+          "isOutlier": false,
+          "confidence": 0.595
+        },
+        {
+          "file": "catalog/1050202387/mcp-server-browserbase/mcp-server-browserbase/listing.yaml",
+          "line": 3,
+          "column": 35,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1050202387/mcp-server-browserbase/mcp-server-browserbase/listing.yaml",
+          "line": 4,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/11bluetree/mysql-mcp/mysql-mcp/listing.yaml",
+          "line": 3,
+          "column": 26,
+          "isOutlier": false,
+          "confidence": 0.5366666666666666
+        },
+        {
+          "file": "catalog/1282saa/mcp_style/mcp_style/listing.yaml",
+          "line": 3,
+          "column": 27,
+          "isOutlier": false,
+          "confidence": 0.6533333333333333
+        },
+        {
+          "file": "catalog/1282saa/mcp_style/mcp_style/listing.yaml",
+          "line": 9,
+          "column": 19,
+          "isOutlier": false,
+          "confidence": 0.6533333333333333
+        },
+        {
+          "file": "catalog/1282saa/mcp_style/mcp_style/server.yaml",
+          "line": 13,
+          "column": 49,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1282saa/ppt_se/ppt_sed/listing.yaml",
+          "line": 4,
+          "column": 30,
+          "isOutlier": false,
+          "confidence": 0.595
+        },
+        {
+          "file": "catalog/1282saa/ppt_se/ppt_sek/listing.yaml",
+          "line": 3,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/153913232a/department-vue/department-vue/listing.yaml",
+          "line": 3,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.6533333333333333
+        },
+        {
+          "file": "catalog/153913232a/department-vue/department-vue/listing.yaml",
+          "line": 9,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.6533333333333333
+        },
+        {
+          "file": "catalog/153913232a/department-vue/department-vue/server.yaml",
+          "line": 11,
+          "column": 60,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/153913232a/webpack-vue/webpack-vue/listing.yaml",
+          "line": 2,
+          "column": 72,
+          "isOutlier": false,
+          "confidence": 0.6299999999999999
+        },
+        {
+          "file": "catalog/153913232a/webpack-vue/webpack-vue/listing.yaml",
+          "line": 3,
+          "column": 49,
+          "isOutlier": false,
+          "confidence": 0.6299999999999999
+        },
+        {
+          "file": "catalog/153913232a/webpack-vue/webpack-vue/listing.yaml",
+          "line": 11,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.6299999999999999
+        },
+        {
+          "file": "catalog/153913232a/webpack-vue/webpack-vue/server.yaml",
+          "line": 12,
+          "column": 23,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/153913232a/webpack-vue/webpack-vue/server.yaml",
+          "line": 13,
+          "column": 34,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/199-bio/mcp-wait-timer/mcp-wait-timer/listing.yaml",
+          "line": 2,
+          "column": 38,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/199-bio/mcp-wait-timer/mcp-wait-timer/tools.yaml",
+          "line": 3,
+          "column": 30,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1mcp-app/agent/agent/listing.yaml",
+          "line": 2,
+          "column": 60,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/21st-dev/magic-mcp/magic-mcp/tools.yaml",
+          "line": 32,
+          "column": 34,
+          "isOutlier": false,
+          "confidence": 0.6533333333333333
+        },
+        {
+          "file": "catalog/21st-dev/magic-mcp/magic-mcp/tools.yaml",
+          "line": 43,
+          "column": 9,
+          "isOutlier": false,
+          "confidence": 0.6533333333333333
+        },
+        {
+          "file": "catalog/24mlight/a-share-mcp-is-just-i-need/a-share-mcp-is-just-i-need/listing.yaml",
+          "line": 3,
+          "column": 54,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/24mlight/a-share-mcp-is-just-i-need/a-share-mcp-is-just-i-need/server.yaml",
+          "line": 13,
+          "column": 67,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/24mlight/a-share-mcp-is-just-i-need/a-share-mcp-is-just-i-need/tools.yaml",
+          "line": 47,
+          "column": 45,
+          "isOutlier": false,
+          "confidence": 0.6387499999999999
+        },
+        {
+          "file": "catalog/24mlight/a-share-mcp-is-just-i-need/a-share-mcp-is-just-i-need/tools.yaml",
+          "line": 106,
+          "column": 52,
+          "isOutlier": false,
+          "confidence": 0.6387499999999999
+        },
+        {
+          "file": "catalog/24mlight/a-share-mcp-is-just-i-need/a-share-mcp-is-just-i-need/tools.yaml",
+          "line": 470,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.6387499999999999
+        },
+        {
+          "file": "catalog/24mlight/a-share-mcp-is-just-i-need/a-share-mcp-is-just-i-need/tools.yaml",
+          "line": 514,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.6387499999999999
+        },
+        {
+          "file": "catalog/24mlight/a-share-mcp-is-just-i-need/a-share-mcp-is-just-i-need/tools.yaml",
+          "line": 679,
+          "column": 59,
+          "isOutlier": false,
+          "confidence": 0.6387499999999999
+        },
+        {
+          "file": "catalog/2emma-zhou/work-related/work-related/server.yaml",
+          "line": 12,
+          "column": 31,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/2geonhyup/dart-mcp/dart-mcp/tools.yaml",
+          "line": 55,
+          "column": 28,
+          "isOutlier": false,
+          "confidence": 0.595
+        },
+        {
+          "file": "catalog/2geonhyup/dart-mcp-test/dart-mcp-test/server.yaml",
+          "line": 5,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.6533333333333333
+        },
+        {
+          "file": "catalog/2geonhyup/dart-mcp-test/dart-mcp-test/tools.yaml",
+          "line": 260,
+          "column": 11,
+          "isOutlier": false,
+          "confidence": 0.6824999999999999
+        },
+        {
+          "file": "catalog/2geonhyup/dart-mcp-test/dart-mcp-test/tools.yaml",
+          "line": 280,
+          "column": 14,
+          "isOutlier": false,
+          "confidence": 0.6824999999999999
+        },
+        {
+          "file": "catalog/2geonhyup/dart-mcp-test/dart-mcp-test/tools.yaml",
+          "line": 55,
+          "column": 28,
+          "isOutlier": false,
+          "confidence": 0.6824999999999999
+        },
+        {
+          "file": "catalog/302ai/302_sandbox_mcp/302_sandbox_mcp/listing.yaml",
+          "line": 3,
+          "column": 43,
+          "isOutlier": false,
+          "confidence": 0.595
+        },
+        {
+          "file": "catalog/302ai/302_sandbox_mcp/sandbox_mcp/tools.yaml",
+          "line": 60,
+          "column": 42,
+          "isOutlier": false,
+          "confidence": 0.6699999999999999
+        },
+        {
+          "file": "catalog/302ai/302_sandbox_mcp/sandbox_mcp/tools.yaml",
+          "line": 71,
+          "column": 54,
+          "isOutlier": false,
+          "confidence": 0.6699999999999999
+        },
+        {
+          "file": "catalog/302ai/302_sandbox_mcp/sandbox_mcp/tools.yaml",
+          "line": 146,
+          "column": 42,
+          "isOutlier": false,
+          "confidence": 0.6699999999999999
+        },
+        {
+          "file": "catalog/302ai/302_sandbox_mcp/sandbox_mcp/tools.yaml",
+          "line": 193,
+          "column": 39,
+          "isOutlier": false,
+          "confidence": 0.6699999999999999
+        },
+        {
+          "file": "catalog/302ai/302_sandbox_mcp/sandbox_mcp/tools.yaml",
+          "line": 210,
+          "column": 57,
+          "isOutlier": false,
+          "confidence": 0.6699999999999999
+        },
+        {
+          "file": "catalog/302ai/302_sandbox_mcp/sandbox_mcp/tools.yaml",
+          "line": 39,
+          "column": 14,
+          "isOutlier": false,
+          "confidence": 0.6699999999999999
+        },
+        {
+          "file": "catalog/302ai/302_sandbox_mcp/sandbox_mcp/tools.yaml",
+          "line": 79,
+          "column": 48,
+          "isOutlier": false,
+          "confidence": 0.6699999999999999
+        },
+        {
+          "file": "catalog/302ai/302_sandbox_mcp/sandbox_mcp/tools.yaml",
+          "line": 114,
+          "column": 32,
+          "isOutlier": false,
+          "confidence": 0.6699999999999999
+        },
+        {
+          "file": "catalog/302ai/302_sandbox_mcp/sandbox_mcp/tools.yaml",
+          "line": 152,
+          "column": 50,
+          "isOutlier": false,
+          "confidence": 0.6699999999999999
+        },
+        {
+          "file": "catalog/302ai/302_sandbox_mcp/sandbox_mcp/tools.yaml",
+          "line": 208,
+          "column": 47,
+          "isOutlier": false,
+          "confidence": 0.6699999999999999
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 20,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 20,
+          "column": 76,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 53,
+          "column": 67,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 56,
+          "column": 61,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 85,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 85,
+          "column": 76,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 118,
+          "column": 67,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 121,
+          "column": 61,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 155,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 155,
+          "column": 76,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 188,
+          "column": 67,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 191,
+          "column": 61,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 225,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 225,
+          "column": 76,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 258,
+          "column": 67,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 261,
+          "column": 61,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 295,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 295,
+          "column": 76,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 328,
+          "column": 67,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 331,
+          "column": 61,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 360,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 360,
+          "column": 76,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 393,
+          "column": 67,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 396,
+          "column": 61,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 430,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 430,
+          "column": 76,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 463,
+          "column": 67,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 466,
+          "column": 61,
+          "isOutlier": false,
+          "confidence": 0.77
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-01-31T20:08:15.374Z",
+        "lastSeen": "2026-01-31T20:08:15.374Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "test-structure"
+        ]
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "1b4f8191b56880cc",
+      "subcategory": "setup-teardown",
+      "name": "Setup/Teardown Detector",
+      "description": "Learns test setup/teardown patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/setup-teardown",
+          "patternId": "testing/setup-teardown/unknown"
+        }
+      },
+      "confidence": {
+        "frequency": 1,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 241,
+        "score": 0.77,
+        "level": "medium"
+      },
+      "locations": [
+        {
+          "file": ".github/workflows/update-index.yml",
+          "line": 23,
+          "column": 23,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xdwong/sui-mcp/sui-mcp/listing.yaml",
+          "line": 3,
+          "column": 49,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/153913232a/webpack-vue/webpack-vue/listing.yaml",
+          "line": 3,
+          "column": 49,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/153913232a/webpack-vue/webpack-vue/listing.yaml",
+          "line": 11,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/153913232a/webpack-vue/webpack-vue/server.yaml",
+          "line": 13,
+          "column": 34,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/568163103/ruoyi-vue-pig/ruoyi-vue-pig/listing.yaml",
+          "line": 4,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/568163103/ruoyi-vue-pig/ruoyi-vue-pig/listing.yaml",
+          "line": 7,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/568163103/ruoyi-vue-pig/ruoyi-vue-pig/server.yaml",
+          "line": 12,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/abood-alshami/abood-alshami/abood-alshami/server.yaml",
+          "line": 13,
+          "column": 12,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/alexander-zuev/kollektiv-mcp/kollektiv-mcp/server.yaml",
+          "line": 11,
+          "column": 30,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/andersmandersen/mcp-swagger/mcp-swagger/server.yaml",
+          "line": 13,
+          "column": 46,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/anisirji/mcp-server-remote-setup-with-jwt-auth/mcp-server-remote-setup-with-jwt-auth/server.yaml",
+          "line": 5,
+          "column": 27,
+          "isOutlier": true,
+          "confidence": 0.6533333333333333,
+          "outlierReason": "Low confidence outlier"
+        },
+        {
+          "file": "catalog/anpy-j/mcp-oracle/mcp-oracle/server.yaml",
+          "line": 13,
+          "column": 28,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/antonioevans/railway-mcp/railway-mcp/tools.yaml",
+          "line": 37,
+          "column": 17,
+          "isOutlier": true,
+          "confidence": 0.6824999999999999,
+          "outlierReason": "Low confidence outlier"
+        },
+        {
+          "file": "catalog/antonioevans/railway-mcp/railway-mcp/tools.yaml",
+          "line": 999,
+          "column": 27,
+          "isOutlier": true,
+          "confidence": 0.6824999999999999,
+          "outlierReason": "Low confidence outlier"
+        },
+        {
+          "file": "catalog/antonioevans/railway-mcp/railway-mcp/tools.yaml",
+          "line": 1090,
+          "column": 19,
+          "isOutlier": true,
+          "confidence": 0.6824999999999999,
+          "outlierReason": "Low confidence outlier"
+        },
+        {
+          "file": "catalog/antonioscapellato/mcp-server-sample/mcp-server-sample/listing.yaml",
+          "line": 7,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/antonioscapellato/mcp-server-sample/mcp-server-sample/server.yaml",
+          "line": 13,
+          "column": 68,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/api7/apisix-mcp/apisix-mcp/server.yaml",
+          "line": 13,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/aqaranewbiz/mysql-aqaranewbiz/mysql-aqaranewbiz/server.yaml",
+          "line": 12,
+          "column": 67,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/ariadng/metatrader-mcp-server/metatrader-mcp/server.yaml",
+          "line": 13,
+          "column": 26,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/atinux/mcp-with-nuxt-vercel/mcp-with-nuxt-vercel/listing.yaml",
+          "line": 4,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/auchenberg/claude-code-mcp/claude-code-mcp/server.yaml",
+          "line": 8,
+          "column": 45,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/automateyournetwork/selector-mcp-server/selector-mcp-server/listing.yaml",
+          "line": 4,
+          "column": 11,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/automateyournetwork/selector-mcp-server/selector-mcp-server/server.yaml",
+          "line": 10,
+          "column": 65,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/awslabs/mcp/cdk-mcp-server/listing.yaml",
+          "line": 4,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/baryhuang/mcp-headless-gmail/mcp-headless-gmail/listing.yaml",
+          "line": 2,
+          "column": 28,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/baryhuang/mcp-headless-gmail/mcp-headless-gmail/server.yaml",
+          "line": 11,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/baryhuang/mcp-remote-macos-use/mcp-remote-macos-use/server.yaml",
+          "line": 13,
+          "column": 31,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/baryhuang/my-apple-remembers/my-apple-remembers/listing.yaml",
+          "line": 3,
+          "column": 59,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/baryhuang/my-apple-remembers/my-apple-remembers/listing.yaml",
+          "line": 9,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/baryhuang/my-apple-remembers/my-apple-remembers/server.yaml",
+          "line": 12,
+          "column": 51,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/beordle/tinypng-mcp-server/tinypng-mcp-server/listing.yaml",
+          "line": 2,
+          "column": 51,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/bitrise-io/bitrise-mcp/bitrise-mcp/tools.yaml",
+          "line": 29,
+          "column": 61,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/bitrise-io/bitrise-mcp/bitrise-mcp/tools.yaml",
+          "line": 65,
+          "column": 29,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/bitrise-io/bitrise-mcp/bitrise-mcp/tools.yaml",
+          "line": 80,
+          "column": 36,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/bitrise-io/bitrise-mcp/bitrise-mcp/tools.yaml",
+          "line": 91,
+          "column": 62,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/brunwo/mcp-stripe/mcp-stripe/listing.yaml",
+          "line": 3,
+          "column": 35,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/brunwo/mcp-stripe/mcp-stripe/server.yaml",
+          "line": 14,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/bsmi021/mcp-node-omnibus-server/mcp-node-omnibus-server/listing.yaml",
+          "line": 1,
+          "column": 40,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/bsmi021/mcp-node-omnibus-server/mcp-node-omnibus-server/server.yaml",
+          "line": 10,
+          "column": 75,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/burkeholland/mcp-notify/mcp-notify/listing.yaml",
+          "line": 3,
+          "column": 36,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/burkeholland/mcp-notify/mcp-notify/server.yaml",
+          "line": 13,
+          "column": 39,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/cam10001110101/remote-mcp-server/remote-mcp-server/server.yaml",
+          "line": 12,
+          "column": 67,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/capoom/houdini-mcp/houdini-mcp/listing.yaml",
+          "line": 2,
+          "column": 34,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/capoom/houdini-mcp/houdini-mcp/server.yaml",
+          "line": 11,
+          "column": 30,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/cdatasoftware/salesforce-mcp-server-by-cdata/salesforce-mcp-server-by-cdata/server.yaml",
+          "line": 14,
+          "column": 47,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/cdatasoftware/sap-successfactors-mcp-server-by-cdata/sap-successfactors-mcp-server-by-cdata/server.yaml",
+          "line": 14,
+          "column": 55,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/clarenous/veyrax-mcp/veyrax-mcp/server.yaml",
+          "line": 14,
+          "column": 27,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/corefluxcommunity/coreflux-mqtt-mcp-server/corefluxmcpserver/listing.yaml",
+          "line": 10,
+          "column": 19,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/crunchloop/mcp-devcontainers/mcp-devcontainers/listing.yaml",
+          "line": 2,
+          "column": 30,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/crunchloop/mcp-devcontainers/mcp-devcontainers/listing.yaml",
+          "line": 7,
+          "column": 14,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/crunchloop/mcp-devcontainers/mcp-devcontainers/server.yaml",
+          "line": 11,
+          "column": 41,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/crunchloop/mcp-devcontainers/mcp-devcontainers/tools.yaml",
+          "line": 20,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/danhilse/notion_mcp/notion_mcp/listing.yaml",
+          "line": 3,
+          "column": 59,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/danosb/onenote-mcp/onenote-mcp/server.yaml",
+          "line": 13,
+          "column": 25,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/dragon88888888888/ejemplo-mcp/ejemplo-mcp/listing.yaml",
+          "line": 3,
+          "column": 23,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/dragon88888888888/ejemplo-mcp/ejemplo-mcp/server.yaml",
+          "line": 12,
+          "column": 50,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/dreyfus92/astro-docs-mcp/astro-docs-mcp/server.yaml",
+          "line": 13,
+          "column": 69,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/drumnation/unsplash-smart-mcp-server/unsplash-smart-mcp-server/server.yaml",
+          "line": 13,
+          "column": 70,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/ducphu0ng/imap-netflix-household-automation/imap-netflix-household-automation/listing.yaml",
+          "line": 10,
+          "column": 27,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/dustland/genesis-mcp/genesis-mcp/listing.yaml",
+          "line": 8,
+          "column": 17,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/dustland/genesis-mcp/genesis-mcp/server.yaml",
+          "line": 13,
+          "column": 53,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/dxheroes/mcp-devtools/mcp-devtools/server.yaml",
+          "line": 12,
+          "column": 70,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/dynamicendpoints/cloudflare-github-backup-mcp/cloudflare-github-backup-mcp/server.yaml",
+          "line": 13,
+          "column": 24,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/edgecloudx/ceph_exporter/ceph_exporter/server.yaml",
+          "line": 11,
+          "column": 69,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/edubase/mcp/mcp/server.yaml",
+          "line": 21,
+          "column": 52,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/elinmaks/1111111/love-city/listing.yaml",
+          "line": 7,
+          "column": 20,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/elinmaks/1111111/love-city/server.yaml",
+          "line": 13,
+          "column": 32,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/enso-labs/mcp-sse/mcp-sse/listing.yaml",
+          "line": 3,
+          "column": 75,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/enso-labs/mcp-sse/mcp-sse/server.yaml",
+          "line": 14,
+          "column": 21,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/evalstate/mcp-hfspace/mcp-hfspace/listing.yaml",
+          "line": 3,
+          "column": 38,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/evalstate/mcp-hfspace/mcp-hfspace/server.yaml",
+          "line": 10,
+          "column": 60,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/everford/fetcher-mcp/fetcher-mcp/listing.yaml",
+          "line": 2,
+          "column": 67,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/everford/fetcher-mcp/fetcher-mcp/server.yaml",
+          "line": 13,
+          "column": 21,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/exczzz/dev/dev/listing.yaml",
+          "line": 2,
+          "column": 64,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/exczzz/dev/dev/server.yaml",
+          "line": 13,
+          "column": 21,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/felixizraitel/3d-thumbnail-example/d-thumbnail-example/listing.yaml",
+          "line": 1,
+          "column": 25,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/felixizraitel/3d-thumbnail-example/d-thumbnail-example/server.yaml",
+          "line": 10,
+          "column": 55,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/firevenus/keam/keam/server.yaml",
+          "line": 11,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/free-free-6/lnexchange-mcp-node-service/lnexchange-mcp-node-service/listing.yaml",
+          "line": 2,
+          "column": 46,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/free-free-6/lnexchange-mcp-node-service/lnexchange-mcp-node-service/server.yaml",
+          "line": 13,
+          "column": 47,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/frvjr/flask/flask/listing.yaml",
+          "line": 3,
+          "column": 19,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/frvjr/flask/flask/server.yaml",
+          "line": 12,
+          "column": 70,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/gaplydev01/coingecko-mcp-server/coingecko-mcp-server/server.yaml",
+          "line": 12,
+          "column": 60,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/garylab/serper-mcp-server/serper-mcp-server/server.yaml",
+          "line": 13,
+          "column": 31,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/gechmind/mcp-postman/mcp-postman/listing.yaml",
+          "line": 4,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/getsentry/sentry-mcp/sentry-mcp/listing.yaml",
+          "line": 3,
+          "column": 14,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/gitkenan/doctair/doctair/server.yaml",
+          "line": 14,
+          "column": 39,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/gitmotion/ntfy-me-mcp/ntfy-me-mcp/server.yaml",
+          "line": 19,
+          "column": 14,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/goswamig/fetch-mcp/fetch-mcp/server.yaml",
+          "line": 13,
+          "column": 33,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/gpaul-mcp/mcp_prompt_localdev/mcp_prompt_localdev/server.yaml",
+          "line": 12,
+          "column": 28,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/henihaddad/gcp-mcp/gcp-mcp/listing.yaml",
+          "line": 3,
+          "column": 64,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/henkdz/postgresql-mcp-server/postgresql-mcp-server/tools.yaml",
+          "line": 20,
+          "column": 46,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/henkdz/selfhosted-supabase-mcp/selfhosted-supabase-mcp/server.yaml",
+          "line": 14,
+          "column": 49,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/heroku/heroku-mcp-server/heroku-mcp-server/tools.yaml",
+          "line": 832,
+          "column": 47,
+          "isOutlier": true,
+          "confidence": 0.595,
+          "outlierReason": "Low confidence outlier"
+        },
+        {
+          "file": "catalog/hongsw/aligo-sms-mcp-server/aligo-sms-mcp-server/server.yaml",
+          "line": 13,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/huangbaiming/frp/frp/listing.yaml",
+          "line": 3,
+          "column": 53,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/huangbaiming/frp/frp/server.yaml",
+          "line": 13,
+          "column": 21,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/huanshenyi/mcp-server-bearer-auth/mcp-server-bearer-auth/listing.yaml",
+          "line": 10,
+          "column": 47,
+          "isOutlier": false,
+          "confidence": 0.77
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-01-31T20:08:15.376Z",
+        "lastSeen": "2026-01-31T20:08:15.376Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "setup-teardown"
+        ]
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "6b5cb7741eec0856",
+      "subcategory": "test-file-naming",
+      "name": "Test File Naming Detector",
+      "description": "Learns test file naming patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/test-file-naming",
+          "patternId": "testing/test-file-naming/unknown"
+        }
+      },
+      "confidence": {
+        "frequency": 1,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 3400,
+        "score": 0.77,
+        "level": "medium"
+      },
+      "locations": [
+        {
+          "file": "catalog/0110dppd/csvdataaianalysis/csvdataaianalysis/server.yaml",
+          "line": 11,
+          "column": 48,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xdaef0f/job-searchoor/job-searchoor/listing.yaml",
+          "line": 7,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xdaef0f/job-searchoor/job-searchoor/listing.yaml",
+          "line": 9,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xdwong/sui-mcp/sui-mcp/listing.yaml",
+          "line": 9,
+          "column": 17,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xdwong/sui-mcp/sui-mcp/tools.yaml",
+          "line": 12,
+          "column": 15,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xdwong/sui-mcp/sui-mcp/tools.yaml",
+          "line": 33,
+          "column": 15,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xdwong/sui-mcp/sui-mcp/tools.yaml",
+          "line": 60,
+          "column": 15,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xhijo/mcp_twitter/mcp_twitter/tools.yaml",
+          "line": 15,
+          "column": 27,
+          "isOutlier": false,
+          "confidence": 0.6533333333333333
+        },
+        {
+          "file": "catalog/0xhijo/mcp_twitter/mcp_twitter/tools.yaml",
+          "line": 43,
+          "column": 22,
+          "isOutlier": false,
+          "confidence": 0.6533333333333333
+        },
+        {
+          "file": "catalog/0xnacho/aws-lakeformation-mcp/aws-lakeformation-mcp/server.yaml",
+          "line": 9,
+          "column": 28,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/server.yaml",
+          "line": 9,
+          "column": 14,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 5,
+          "column": 33,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 29,
+          "column": 61,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 53,
+          "column": 34,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 79,
+          "column": 35,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 105,
+          "column": 38,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 131,
+          "column": 33,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 155,
+          "column": 35,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 181,
+          "column": 34,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 207,
+          "column": 33,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 231,
+          "column": 41,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 257,
+          "column": 33,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 281,
+          "column": 39,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 307,
+          "column": 59,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 333,
+          "column": 36,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 359,
+          "column": 29,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1282saa/mcp_style/mcp_style/listing.yaml",
+          "line": 3,
+          "column": 27,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1282saa/mcp_style/mcp_style/listing.yaml",
+          "line": 9,
+          "column": 19,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1282saa/mcp_style/mcp_style/server.yaml",
+          "line": 13,
+          "column": 49,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1282saa/mcp_style/mcp_style/server.yaml",
+          "line": 11,
+          "column": 66,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1282saa/news_sum/news_sum/server.yaml",
+          "line": 10,
+          "column": 69,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1282saa/ppt_se/ppt_sed/server.yaml",
+          "line": 11,
+          "column": 40,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1282saa/ppt_se/ppt_sek/server.yaml",
+          "line": 12,
+          "column": 57,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/153913232a/department-vue/department-vue/listing.yaml",
+          "line": 3,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/153913232a/department-vue/department-vue/listing.yaml",
+          "line": 9,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/153913232a/department-vue/department-vue/server.yaml",
+          "line": 11,
+          "column": 60,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/153913232a/department-vue/department-vue/server.yaml",
+          "line": 13,
+          "column": 43,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/153913232a/webpack-vue/webpack-vue/listing.yaml",
+          "line": 2,
+          "column": 72,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/153913232a/webpack-vue/webpack-vue/listing.yaml",
+          "line": 10,
+          "column": 12,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/153913232a/webpack-vue/webpack-vue/server.yaml",
+          "line": 12,
+          "column": 23,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1595901624/qrcode-mcp/qrcode-mcp/listing.yaml",
+          "line": 6,
+          "column": 10,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/199-bio/mcp-wait-timer/mcp-wait-timer/listing.yaml",
+          "line": 2,
+          "column": 38,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/199-bio/mcp-wait-timer/mcp-wait-timer/tools.yaml",
+          "line": 3,
+          "column": 30,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1sustgmboab/nexonco-mcp/nexonco-mcp/listing.yaml",
+          "line": 4,
+          "column": 19,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1sustgmboab/nexonco-mcp/nexonco-mcp/server.yaml",
+          "line": 12,
+          "column": 20,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/21st-dev/magic-mcp/magic-mcp/tools.yaml",
+          "line": 32,
+          "column": 34,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/21st-dev/magic-mcp/magic-mcp/tools.yaml",
+          "line": 43,
+          "column": 9,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/24mlight/a-share-mcp-is-just-i-need/a-share-mcp-is-just-i-need/server.yaml",
+          "line": 13,
+          "column": 67,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/24mlight/a-share-mcp-is-just-i-need/a-share-mcp-is-just-i-need/server.yaml",
+          "line": 14,
+          "column": 33,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/24mlight/a-share-mcp-is-just-i-need/a-share-mcp-is-just-i-need/tools.yaml",
+          "line": 47,
+          "column": 45,
+          "isOutlier": false,
+          "confidence": 0.7116666666666667
+        },
+        {
+          "file": "catalog/24mlight/a-share-mcp-is-just-i-need/a-share-mcp-is-just-i-need/tools.yaml",
+          "line": 106,
+          "column": 52,
+          "isOutlier": false,
+          "confidence": 0.7116666666666667
+        },
+        {
+          "file": "catalog/24mlight/a-share-mcp-is-just-i-need/a-share-mcp-is-just-i-need/tools.yaml",
+          "line": 470,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.7116666666666667
+        },
+        {
+          "file": "catalog/24mlight/a-share-mcp-is-just-i-need/a-share-mcp-is-just-i-need/tools.yaml",
+          "line": 514,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.7116666666666667
+        },
+        {
+          "file": "catalog/24mlight/a-share-mcp-is-just-i-need/a-share-mcp-is-just-i-need/tools.yaml",
+          "line": 679,
+          "column": 59,
+          "isOutlier": false,
+          "confidence": 0.7116666666666667
+        },
+        {
+          "file": "catalog/2587013635/docker-rep/docker-rep/server.yaml",
+          "line": 12,
+          "column": 59,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/2emma-zhou/work-related/work-related/server.yaml",
+          "line": 12,
+          "column": 31,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/2geonhyup/dart-mcp-test/dart-mcp-test/server.yaml",
+          "line": 5,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.6533333333333333
+        },
+        {
+          "file": "catalog/2geonhyup/dart-mcp-test/dart-mcp-test/tools.yaml",
+          "line": 260,
+          "column": 11,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/2geonhyup/dart-mcp-test/dart-mcp-test/tools.yaml",
+          "line": 280,
+          "column": 14,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/302ai/302_sandbox_mcp/302_sandbox_mcp/listing.yaml",
+          "line": 3,
+          "column": 43,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/302ai/302_sandbox_mcp/302_sandbox_mcp/listing.yaml",
+          "line": 3,
+          "column": 55,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/302ai/302_sandbox_mcp/302_sandbox_mcp/listing.yaml",
+          "line": 8,
+          "column": 21,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/302ai/302_sandbox_mcp/302_sandbox_mcp/server.yaml",
+          "line": 13,
+          "column": 23,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/302ai/302_sandbox_mcp/sandbox_mcp/tools.yaml",
+          "line": 39,
+          "column": 14,
+          "isOutlier": false,
+          "confidence": 0.7116666666666667
+        },
+        {
+          "file": "catalog/302ai/302_sandbox_mcp/sandbox_mcp/tools.yaml",
+          "line": 79,
+          "column": 48,
+          "isOutlier": false,
+          "confidence": 0.7116666666666667
+        },
+        {
+          "file": "catalog/302ai/302_sandbox_mcp/sandbox_mcp/tools.yaml",
+          "line": 114,
+          "column": 32,
+          "isOutlier": false,
+          "confidence": 0.7116666666666667
+        },
+        {
+          "file": "catalog/302ai/302_sandbox_mcp/sandbox_mcp/tools.yaml",
+          "line": 152,
+          "column": 50,
+          "isOutlier": false,
+          "confidence": 0.7116666666666667
+        },
+        {
+          "file": "catalog/302ai/302_sandbox_mcp/sandbox_mcp/tools.yaml",
+          "line": 208,
+          "column": 47,
+          "isOutlier": false,
+          "confidence": 0.7116666666666667
+        },
+        {
+          "file": "catalog/316189693/will-mcp/will-mcp/server.yaml",
+          "line": 10,
+          "column": 60,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/317363658/helloword/helloword/server.yaml",
+          "line": 10,
+          "column": 32,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 342,
+          "column": 68,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 415,
+          "column": 59,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3rzy/make-mcp-integration-issue/make-mcp-integration-issue/server.yaml",
+          "line": 5,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.6533333333333333
+        },
+        {
+          "file": "catalog/54yyyu/zotero-mcp/zotero-mcp/tools.yaml",
+          "line": 31,
+          "column": 46,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/54yyyu/zotero-mcp/zotero-mcp/tools.yaml",
+          "line": 69,
+          "column": 37,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/54yyyu/zotero-mcp/zotero-mcp/tools.yaml",
+          "line": 86,
+          "column": 65,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/54yyyu/zotero-mcp/zotero-mcp/tools.yaml",
+          "line": 189,
+          "column": 44,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/568163103/ruoyi-vue-pig/ruoyi-vue-pig/listing.yaml",
+          "line": 8,
+          "column": 28,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/5ajaki/safe-mcp-server/safe-mcp-server/listing.yaml",
+          "line": 3,
+          "column": 67,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/5ajaki/safe-mcp-server/safe-mcp-server/listing.yaml",
+          "line": 9,
+          "column": 14,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/5ajaki/safe-mcp-server/safe-mcp-server/server.yaml",
+          "line": 12,
+          "column": 30,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/5ajaki/safe-mcp-server/safe-mcp-server/tools.yaml",
+          "line": 19,
+          "column": 35,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/6/mcp-server-rubygems/mcp-server-rubygems/listing.yaml",
+          "line": 2,
+          "column": 27,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/6/mcp-server-rubygems/mcp-server-rubygems/server.yaml",
+          "line": 11,
+          "column": 49,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/6/mcp-server-rubygems/mcp-server-rubygems/tools.yaml",
+          "line": 41,
+          "column": 50,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/6/mcp-server-rubygems/mcp-server-rubygems/tools.yaml",
+          "line": 60,
+          "column": 44,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/6/mcp-server-rubygems/mcp-server-rubygems/tools.yaml",
+          "line": 75,
+          "column": 46,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/6/mcp-server-rubygems/mcp-server-rubygems/tools.yaml",
+          "line": 90,
+          "column": 38,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/611711dark/mcp_calculate_server/mcp_calculate_server/listing.yaml",
+          "line": 9,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/66julienmartin/mcp-server-qwen_max/mcp-server-qwen_max/listing.yaml",
+          "line": 5,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/7gugu/whistle-mcp/whistle-mcp/listing.yaml",
+          "line": 3,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/7gugu/whistle-mcp/whistle-mcp/listing.yaml",
+          "line": 10,
+          "column": 17,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/8bitsats/2gether_mcp/ntogethernow/server.yaml",
+          "line": 10,
+          "column": 56,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/8bitsats/solana-mcp-trading-server/solana-mcp-trading-server/listing.yaml",
+          "line": 9,
+          "column": 28,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/8bitsats/solana-mcp-tradingserver/solanatradingserver/tools.yaml",
+          "line": 44,
+          "column": 60,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/8bitsats/solana_tracker_mcp_server/solana_tracker_mcp_server/listing.yaml",
+          "line": 11,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/8bitsats/solana_tracker_mcp_server/solana_tracker_mcp_server/server.yaml",
+          "line": 13,
+          "column": 14,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/a318888331/mpc/mpc/server.yaml",
+          "line": 10,
+          "column": 60,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/aakarsh-sasi/memory-bank-mcp/memory-bank-mcp/tools.yaml",
+          "line": 3,
+          "column": 50,
+          "isOutlier": false,
+          "confidence": 0.6533333333333333
+        },
+        {
+          "file": "catalog/aaronsb/apptio-target-process-mcp/apptio-target-process-mcp/tools.yaml",
+          "line": 26,
+          "column": 15,
+          "isOutlier": false,
+          "confidence": 0.77
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-01-31T20:08:15.433Z",
+        "lastSeen": "2026-01-31T20:08:15.433Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "test-file-naming"
+        ]
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "c367a9cdeac9512b",
+      "subcategory": "fixture-patterns",
+      "name": "Fixture Patterns Detector",
+      "description": "Learns test fixture patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/fixture-patterns",
+          "patternId": "testing/fixture-patterns/unknown"
+        }
+      },
+      "confidence": {
+        "frequency": 1,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 5369,
+        "score": 0.77,
+        "level": "medium"
+      },
+      "locations": [
+        {
+          "file": "catalog/0110dppd/csvdataaianalysis/csvdataaianalysis/server.yaml",
+          "line": 9,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0110dppd/csvdataaianalysis/csvdataaianalysis/server.yaml",
+          "line": 10,
+          "column": 63,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0110dppd/csvdataaianalysis/csvdataaianalysis/server.yaml",
+          "line": 11,
+          "column": 67,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0110dppd/csvdataaianalysis/csvdataaianalysis/server.yaml",
+          "line": 12,
+          "column": 35,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0110dppd/csvdataaianalysis/csvdataaianalysis/server.yaml",
+          "line": 13,
+          "column": 23,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xcathiefish/mcp/mcp/listing.yaml",
+          "line": 2,
+          "column": 12,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xcathiefish/mcp/mcp/listing.yaml",
+          "line": 6,
+          "column": 11,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xcathiefish/mcp/mcp/listing.yaml",
+          "line": 8,
+          "column": 19,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xcathiefish/mcp/mcp/server.yaml",
+          "line": 10,
+          "column": 35,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xgval/evm-mcp-tools/evm-mcp-tools/categories.yaml",
+          "line": 2,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xgval/evm-mcp-tools/evm-mcp-tools/listing.yaml",
+          "line": 3,
+          "column": 63,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xgval/evm-mcp-tools/evm-mcp-tools/listing.yaml",
+          "line": 8,
+          "column": 20,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xgval/evm-mcp-tools/evm-mcp-tools/server.yaml",
+          "line": 12,
+          "column": 28,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xhijo/mcp_twitter/mcp_twitter/tools.yaml",
+          "line": 90,
+          "column": 45,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xhijo/mcp_twitter/mcp_twitter/tools.yaml",
+          "line": 144,
+          "column": 46,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xjcf/mcp_codeanalysis/mcp_codeanalysis/categories.yaml",
+          "line": 3,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xjmp/mcp-tradovate/mcp-tradovate/categories.yaml",
+          "line": 1,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xjmp/mcp-tradovate/mcp-tradovate/listing.yaml",
+          "line": 3,
+          "column": 20,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xjmp/mcp-tradovate/mcp-tradovate/listing.yaml",
+          "line": 6,
+          "column": 29,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xjmp/mcp-tradovate/mcp-tradovate/listing.yaml",
+          "line": 10,
+          "column": 32,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xjmp/mcp-tradovate/mcp-tradovate/server.yaml",
+          "line": 11,
+          "column": 45,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xkoda/eth-mcp/eth-mcp/listing.yaml",
+          "line": 1,
+          "column": 59,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xkoda/eth-mcp/eth-mcp/server.yaml",
+          "line": 11,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xkoda/eth-mcp/eth-mcp/server.yaml",
+          "line": 12,
+          "column": 67,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xkoda/eth-mcp/eth-mcp/tools.yaml",
+          "line": 55,
+          "column": 15,
+          "isOutlier": true,
+          "confidence": 0.595,
+          "outlierReason": "Low confidence outlier"
+        },
+        {
+          "file": "catalog/0xkoda/eth-mcp/eth-mcp/tools.yaml",
+          "line": 111,
+          "column": 46,
+          "isOutlier": true,
+          "confidence": 0.595,
+          "outlierReason": "Low confidence outlier"
+        },
+        {
+          "file": "catalog/0xkoda/wiremcp/wiremcp/listing.yaml",
+          "line": 2,
+          "column": 56,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xkoda/wiremcp/wiremcp/listing.yaml",
+          "line": 6,
+          "column": 20,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xkoda/wiremcp/wiremcp/server.yaml",
+          "line": 11,
+          "column": 45,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xkoda/wiremcp/wiremcp/tools.yaml",
+          "line": 3,
+          "column": 62,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xkoda/wiremcp/wiremcp/tools.yaml",
+          "line": 78,
+          "column": 65,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xnacho/aws-lakeformation-mcp/aws-lakeformation-mcp/categories.yaml",
+          "line": 2,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xnacho/aws-lakeformation-mcp/aws-lakeformation-mcp/listing.yaml",
+          "line": 2,
+          "column": 41,
+          "isOutlier": false,
+          "confidence": 0.7116666666666667
+        },
+        {
+          "file": "catalog/0xnacho/aws-lakeformation-mcp/aws-lakeformation-mcp/listing.yaml",
+          "line": 2,
+          "column": 77,
+          "isOutlier": false,
+          "confidence": 0.7116666666666667
+        },
+        {
+          "file": "catalog/0xnacho/aws-lakeformation-mcp/aws-lakeformation-mcp/listing.yaml",
+          "line": 7,
+          "column": 12,
+          "isOutlier": false,
+          "confidence": 0.7116666666666667
+        },
+        {
+          "file": "catalog/0xnacho/aws-lakeformation-mcp/aws-lakeformation-mcp/listing.yaml",
+          "line": 8,
+          "column": 11,
+          "isOutlier": false,
+          "confidence": 0.7116666666666667
+        },
+        {
+          "file": "catalog/0xnacho/aws-lakeformation-mcp/aws-lakeformation-mcp/listing.yaml",
+          "line": 9,
+          "column": 12,
+          "isOutlier": false,
+          "confidence": 0.7116666666666667
+        },
+        {
+          "file": "catalog/0xnacho/aws-lakeformation-mcp/aws-lakeformation-mcp/server.yaml",
+          "line": 11,
+          "column": 75,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xnacho/aws-lakeformation-mcp/aws-lakeformation-mcp/tools.yaml",
+          "line": 13,
+          "column": 14,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/categories.yaml",
+          "line": 3,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xtrxz/supabase-mcp/supabase-mcp/categories.yaml",
+          "line": 1,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xtrxz/supabase-mcp/supabase-mcp/listing.yaml",
+          "line": 2,
+          "column": 39,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xtrxz/supabase-mcp/supabase-mcp/listing.yaml",
+          "line": 2,
+          "column": 56,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xtrxz/supabase-mcp/supabase-mcp/listing.yaml",
+          "line": 7,
+          "column": 11,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xtrxz/supabase-mcp/supabase-mcp/server.yaml",
+          "line": 11,
+          "column": 75,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xtrxz/supabase-mcp/supabase-mcp/server.yaml",
+          "line": 12,
+          "column": 54,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xtrxz/supabase-mcp/supabase-mcp/server.yaml",
+          "line": 15,
+          "column": 17,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/10164367/brave/brave/server.yaml",
+          "line": 11,
+          "column": 62,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1050202387/mcp-server-browserbase/mcp-server-browserbase/listing.yaml",
+          "line": 3,
+          "column": 55,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1050202387/mcp-server-browserbase/mcp-server-browserbase/listing.yaml",
+          "line": 9,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1050202387/mcp-server-browserbase/mcp-server-browserbase/server.yaml",
+          "line": 10,
+          "column": 64,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1092705638/dameng-mcp-server/dameng-mcp-server/categories.yaml",
+          "line": 1,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1092705638/dameng-mcp-server/dameng-mcp-server/listing.yaml",
+          "line": 1,
+          "column": 64,
+          "isOutlier": false,
+          "confidence": 0.6533333333333333
+        },
+        {
+          "file": "catalog/1092705638/dameng-mcp-server/dameng-mcp-server/listing.yaml",
+          "line": 3,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.6533333333333333
+        },
+        {
+          "file": "catalog/1092705638/dameng-mcp-server/dameng-mcp-server/listing.yaml",
+          "line": 3,
+          "column": 49,
+          "isOutlier": false,
+          "confidence": 0.6533333333333333
+        },
+        {
+          "file": "catalog/1092705638/dameng-mcp-server/dameng-mcp-server/listing.yaml",
+          "line": 5,
+          "column": 12,
+          "isOutlier": false,
+          "confidence": 0.6533333333333333
+        },
+        {
+          "file": "catalog/11bluetree/mysql-mcp/mysql-mcp/categories.yaml",
+          "line": 1,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/11bluetree/mysql-mcp/mysql-mcp/categories.yaml",
+          "line": 3,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/11bluetree/mysql-mcp/mysql-mcp/listing.yaml",
+          "line": 1,
+          "column": 68,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/11bluetree/mysql-mcp/mysql-mcp/listing.yaml",
+          "line": 2,
+          "column": 54,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/11bluetree/mysql-mcp/mysql-mcp/listing.yaml",
+          "line": 2,
+          "column": 77,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/11bluetree/mysql-mcp/mysql-mcp/listing.yaml",
+          "line": 3,
+          "column": 68,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/11bluetree/mysql-mcp/mysql-mcp/listing.yaml",
+          "line": 7,
+          "column": 14,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/11bluetree/mysql-mcp/mysql-mcp/server.yaml",
+          "line": 10,
+          "column": 52,
+          "isOutlier": false,
+          "confidence": 0.6533333333333333
+        },
+        {
+          "file": "catalog/11bluetree/mysql-mcp/mysql-mcp/server.yaml",
+          "line": 13,
+          "column": 11,
+          "isOutlier": false,
+          "confidence": 0.6533333333333333
+        },
+        {
+          "file": "catalog/1259187996/mcp-time/mcp-time/categories.yaml",
+          "line": 3,
+          "column": 24,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1282saa/mcp_style/mcp_style/listing.yaml",
+          "line": 6,
+          "column": 24,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1282saa/mcp_style/mcp_style/listing.yaml",
+          "line": 10,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1282saa/mcp_style/mcp_style/server.yaml",
+          "line": 12,
+          "column": 14,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1282saa/news_sum/news_sum/server.yaml",
+          "line": 12,
+          "column": 22,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1313057/ten-agent/smithery/listing.yaml",
+          "line": 2,
+          "column": 77,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1313057/ten-agent/smithery/listing.yaml",
+          "line": 7,
+          "column": 15,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1rb/mongo-mcp/mongo-mcp/categories.yaml",
+          "line": 1,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1rb/mongo-mcp/mongo-mcp/listing.yaml",
+          "line": 1,
+          "column": 67,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1rb/mongo-mcp/mongo-mcp/listing.yaml",
+          "line": 2,
+          "column": 27,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1rb/mongo-mcp/mongo-mcp/listing.yaml",
+          "line": 2,
+          "column": 38,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1rb/mongo-mcp/mongo-mcp/listing.yaml",
+          "line": 7,
+          "column": 12,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1rb/mongo-mcp/mongo-mcp/listing.yaml",
+          "line": 8,
+          "column": 39,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1rb/mongo-mcp/mongo-mcp/server.yaml",
+          "line": 10,
+          "column": 62,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1rb/mongo-mcp/mongo-mcp/server.yaml",
+          "line": 11,
+          "column": 46,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1rb/mongo-mcp/mongo-mcp/server.yaml",
+          "line": 12,
+          "column": 63,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1sustgmboab/nexonco-mcp/nexonco-mcp/categories.yaml",
+          "line": 2,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1sustgmboab/nexonco-mcp/nexonco-mcp/listing.yaml",
+          "line": 2,
+          "column": 54,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1sustgmboab/nexonco-mcp/nexonco-mcp/listing.yaml",
+          "line": 4,
+          "column": 42,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1sustgmboab/nexonco-mcp/nexonco-mcp/listing.yaml",
+          "line": 6,
+          "column": 30,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1sustgmboab/nexonco-mcp/nexonco-mcp/listing.yaml",
+          "line": 7,
+          "column": 21,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1sustgmboab/nexonco-mcp/nexonco-mcp/server.yaml",
+          "line": 10,
+          "column": 74,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1sustgmboab/nexonco-mcp/nexonco-mcp/server.yaml",
+          "line": 12,
+          "column": 45,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1sustgmboab/nexonco-mcp/nexonco-mcp/server.yaml",
+          "line": 14,
+          "column": 27,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1yhy/figma-context-mcp/figma-context-mcp/listing.yaml",
+          "line": 3,
+          "column": 33,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1yhy/figma-context-mcp/figma-context-mcp/listing.yaml",
+          "line": 8,
+          "column": 20,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1yhy/figma-context-mcp/figma-context-mcp/server.yaml",
+          "line": 12,
+          "column": 28,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/21st-dev/magic-mcp/magic-mcp/tools.yaml",
+          "line": 80,
+          "column": 19,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/21st-dev/magic-mcp/magic-mcp/tools.yaml",
+          "line": 81,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/24mlight/a-share-mcp-is-just-i-need/a-share-mcp-is-just-i-need/categories.yaml",
+          "line": 1,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/24mlight/a-share-mcp-is-just-i-need/a-share-mcp-is-just-i-need/categories.yaml",
+          "line": 2,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/24mlight/a-share-mcp-is-just-i-need/a-share-mcp-is-just-i-need/listing.yaml",
+          "line": 1,
+          "column": 33,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/24mlight/a-share-mcp-is-just-i-need/a-share-mcp-is-just-i-need/listing.yaml",
+          "line": 2,
+          "column": 75,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/24mlight/a-share-mcp-is-just-i-need/a-share-mcp-is-just-i-need/listing.yaml",
+          "line": 4,
+          "column": 32,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/24mlight/a-share-mcp-is-just-i-need/a-share-mcp-is-just-i-need/listing.yaml",
+          "line": 6,
+          "column": 26,
+          "isOutlier": false,
+          "confidence": 0.77
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-01-31T20:08:15.434Z",
+        "lastSeen": "2026-01-31T20:08:15.434Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "fixture-patterns"
+        ]
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "a99b05fcfce632ff",
+      "subcategory": "describe-naming",
+      "name": "Describe Naming Detector",
+      "description": "Learns test describe/it naming patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/describe-naming",
+          "patternId": "testing/describe-naming/unknown"
+        }
+      },
+      "confidence": {
+        "frequency": 1,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 1362,
+        "score": 0.77,
+        "level": "medium"
+      },
+      "locations": [
+        {
+          "file": "catalog/0xcathiefish/mcp/mcp/listing.yaml",
+          "line": 2,
+          "column": 43,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xdwong/sui-mcp/sui-mcp/listing.yaml",
+          "line": 9,
+          "column": 17,
+          "isOutlier": false,
+          "confidence": 0.595
+        },
+        {
+          "file": "catalog/0xdwong/sui-mcp/sui-mcp/tools.yaml",
+          "line": 12,
+          "column": 15,
+          "isOutlier": false,
+          "confidence": 0.595
+        },
+        {
+          "file": "catalog/0xdwong/sui-mcp/sui-mcp/tools.yaml",
+          "line": 33,
+          "column": 15,
+          "isOutlier": false,
+          "confidence": 0.595
+        },
+        {
+          "file": "catalog/0xdwong/sui-mcp/sui-mcp/tools.yaml",
+          "line": 60,
+          "column": 15,
+          "isOutlier": false,
+          "confidence": 0.595
+        },
+        {
+          "file": "catalog/0xshellming/mcp-summarizer/mcp-summarizer/listing.yaml",
+          "line": 3,
+          "column": 63,
+          "isOutlier": false,
+          "confidence": 0.595
+        },
+        {
+          "file": "catalog/1050202387/mcp-server-browserbase/mcp-server-browserbase/listing.yaml",
+          "line": 3,
+          "column": 35,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1050202387/mcp-server-browserbase/mcp-server-browserbase/listing.yaml",
+          "line": 4,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1050202387/mcp-server-browserbase/mcp-server-browserbase/tools.yaml",
+          "line": 19,
+          "column": 33,
+          "isOutlier": false,
+          "confidence": 0.595
+        },
+        {
+          "file": "catalog/11bluetree/mysql-mcp/mysql-mcp/listing.yaml",
+          "line": 3,
+          "column": 26,
+          "isOutlier": false,
+          "confidence": 0.5366666666666666
+        },
+        {
+          "file": "catalog/1282saa/mcp_style/mcp_style/listing.yaml",
+          "line": 3,
+          "column": 27,
+          "isOutlier": false,
+          "confidence": 0.6533333333333333
+        },
+        {
+          "file": "catalog/1282saa/mcp_style/mcp_style/listing.yaml",
+          "line": 9,
+          "column": 19,
+          "isOutlier": false,
+          "confidence": 0.6533333333333333
+        },
+        {
+          "file": "catalog/1282saa/mcp_style/mcp_style/server.yaml",
+          "line": 13,
+          "column": 49,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1282saa/ppt_se/ppt_sed/listing.yaml",
+          "line": 4,
+          "column": 30,
+          "isOutlier": false,
+          "confidence": 0.595
+        },
+        {
+          "file": "catalog/1282saa/ppt_se/ppt_sek/listing.yaml",
+          "line": 3,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/153913232a/department-vue/department-vue/listing.yaml",
+          "line": 3,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.6533333333333333
+        },
+        {
+          "file": "catalog/153913232a/department-vue/department-vue/listing.yaml",
+          "line": 9,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.6533333333333333
+        },
+        {
+          "file": "catalog/153913232a/department-vue/department-vue/server.yaml",
+          "line": 11,
+          "column": 60,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/153913232a/webpack-vue/webpack-vue/listing.yaml",
+          "line": 2,
+          "column": 72,
+          "isOutlier": false,
+          "confidence": 0.6533333333333333
+        },
+        {
+          "file": "catalog/153913232a/webpack-vue/webpack-vue/server.yaml",
+          "line": 12,
+          "column": 23,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1mcp-app/agent/agent/listing.yaml",
+          "line": 2,
+          "column": 60,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1yhy/figma-context-mcp/figma-context-mcp/tools.yaml",
+          "line": 3,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.6533333333333333
+        },
+        {
+          "file": "catalog/1yhy/figma-context-mcp/figma-context-mcp/tools.yaml",
+          "line": 52,
+          "column": 31,
+          "isOutlier": false,
+          "confidence": 0.6533333333333333
+        },
+        {
+          "file": "catalog/21st-dev/magic-mcp/magic-mcp/tools.yaml",
+          "line": 36,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.5366666666666666
+        },
+        {
+          "file": "catalog/24mlight/a-share-mcp-is-just-i-need/a-share-mcp-is-just-i-need/listing.yaml",
+          "line": 3,
+          "column": 54,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/2geonhyup/dart-mcp/dart-mcp/tools.yaml",
+          "line": 55,
+          "column": 28,
+          "isOutlier": false,
+          "confidence": 0.595
+        },
+        {
+          "file": "catalog/2geonhyup/dart-mcp-test/dart-mcp-test/server.yaml",
+          "line": 5,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.6533333333333333
+        },
+        {
+          "file": "catalog/2geonhyup/dart-mcp-test/dart-mcp-test/tools.yaml",
+          "line": 55,
+          "column": 28,
+          "isOutlier": false,
+          "confidence": 0.6824999999999999
+        },
+        {
+          "file": "catalog/2geonhyup/dart-mcp-test/dart-mcp-test/tools.yaml",
+          "line": 260,
+          "column": 11,
+          "isOutlier": false,
+          "confidence": 0.6824999999999999
+        },
+        {
+          "file": "catalog/2geonhyup/dart-mcp-test/dart-mcp-test/tools.yaml",
+          "line": 280,
+          "column": 14,
+          "isOutlier": false,
+          "confidence": 0.6824999999999999
+        },
+        {
+          "file": "catalog/302ai/302_sandbox_mcp/302_sandbox_mcp/listing.yaml",
+          "line": 3,
+          "column": 43,
+          "isOutlier": false,
+          "confidence": 0.595
+        },
+        {
+          "file": "catalog/302ai/302_sandbox_mcp/sandbox_mcp/tools.yaml",
+          "line": 60,
+          "column": 42,
+          "isOutlier": false,
+          "confidence": 0.6241666666666668
+        },
+        {
+          "file": "catalog/302ai/302_sandbox_mcp/sandbox_mcp/tools.yaml",
+          "line": 71,
+          "column": 54,
+          "isOutlier": false,
+          "confidence": 0.6241666666666668
+        },
+        {
+          "file": "catalog/302ai/302_sandbox_mcp/sandbox_mcp/tools.yaml",
+          "line": 146,
+          "column": 42,
+          "isOutlier": false,
+          "confidence": 0.6241666666666668
+        },
+        {
+          "file": "catalog/302ai/302_sandbox_mcp/sandbox_mcp/tools.yaml",
+          "line": 193,
+          "column": 39,
+          "isOutlier": false,
+          "confidence": 0.6241666666666668
+        },
+        {
+          "file": "catalog/302ai/302_sandbox_mcp/sandbox_mcp/tools.yaml",
+          "line": 210,
+          "column": 57,
+          "isOutlier": false,
+          "confidence": 0.6241666666666668
+        },
+        {
+          "file": "catalog/302ai/302_sandbox_mcp/sandbox_mcp/tools.yaml",
+          "line": 129,
+          "column": 53,
+          "isOutlier": false,
+          "confidence": 0.6241666666666668
+        },
+        {
+          "file": "catalog/302ai/302_sandbox_mcp/sandbox_mcp/tools.yaml",
+          "line": 167,
+          "column": 53,
+          "isOutlier": false,
+          "confidence": 0.6241666666666668
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 20,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 20,
+          "column": 76,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 53,
+          "column": 67,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 56,
+          "column": 61,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 85,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 85,
+          "column": 76,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 118,
+          "column": 67,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 121,
+          "column": 61,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 155,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 155,
+          "column": 76,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 188,
+          "column": 67,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 191,
+          "column": 61,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 225,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 225,
+          "column": 76,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 258,
+          "column": 67,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 261,
+          "column": 61,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 295,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 295,
+          "column": 76,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 328,
+          "column": 67,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 331,
+          "column": 61,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 360,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 360,
+          "column": 76,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 393,
+          "column": 67,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 396,
+          "column": 61,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 430,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 430,
+          "column": 76,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 463,
+          "column": 67,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 466,
+          "column": 61,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 512,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 512,
+          "column": 76,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 545,
+          "column": 67,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 548,
+          "column": 61,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 595,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 595,
+          "column": 76,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 628,
+          "column": 67,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 631,
+          "column": 61,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 661,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 661,
+          "column": 76,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 694,
+          "column": 67,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 697,
+          "column": 61,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/54yyyu/zotero-mcp/zotero-mcp/tools.yaml",
+          "line": 3,
+          "column": 29,
+          "isOutlier": false,
+          "confidence": 0.6099999999999999
+        },
+        {
+          "file": "catalog/54yyyu/zotero-mcp/zotero-mcp/tools.yaml",
+          "line": 28,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.6099999999999999
+        },
+        {
+          "file": "catalog/54yyyu/zotero-mcp/zotero-mcp/tools.yaml",
+          "line": 36,
+          "column": 11,
+          "isOutlier": false,
+          "confidence": 0.6099999999999999
+        },
+        {
+          "file": "catalog/54yyyu/zotero-mcp/zotero-mcp/tools.yaml",
+          "line": 40,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.6099999999999999
+        },
+        {
+          "file": "catalog/54yyyu/zotero-mcp/zotero-mcp/tools.yaml",
+          "line": 46,
+          "column": 56,
+          "isOutlier": false,
+          "confidence": 0.6099999999999999
+        },
+        {
+          "file": "catalog/54yyyu/zotero-mcp/zotero-mcp/tools.yaml",
+          "line": 46,
+          "column": 64,
+          "isOutlier": false,
+          "confidence": 0.6099999999999999
+        },
+        {
+          "file": "catalog/54yyyu/zotero-mcp/zotero-mcp/tools.yaml",
+          "line": 51,
+          "column": 11,
+          "isOutlier": false,
+          "confidence": 0.6099999999999999
+        },
+        {
+          "file": "catalog/54yyyu/zotero-mcp/zotero-mcp/tools.yaml",
+          "line": 55,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.6099999999999999
+        },
+        {
+          "file": "catalog/54yyyu/zotero-mcp/zotero-mcp/tools.yaml",
+          "line": 69,
+          "column": 26,
+          "isOutlier": false,
+          "confidence": 0.6099999999999999
+        },
+        {
+          "file": "catalog/54yyyu/zotero-mcp/zotero-mcp/tools.yaml",
+          "line": 91,
+          "column": 11,
+          "isOutlier": false,
+          "confidence": 0.6099999999999999
+        },
+        {
+          "file": "catalog/54yyyu/zotero-mcp/zotero-mcp/tools.yaml",
+          "line": 95,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.6099999999999999
+        },
+        {
+          "file": "catalog/54yyyu/zotero-mcp/zotero-mcp/tools.yaml",
+          "line": 109,
+          "column": 37,
+          "isOutlier": false,
+          "confidence": 0.6099999999999999
+        },
+        {
+          "file": "catalog/54yyyu/zotero-mcp/zotero-mcp/tools.yaml",
+          "line": 119,
+          "column": 52,
+          "isOutlier": false,
+          "confidence": 0.6099999999999999
+        },
+        {
+          "file": "catalog/54yyyu/zotero-mcp/zotero-mcp/tools.yaml",
+          "line": 205,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.6099999999999999
+        },
+        {
+          "file": "catalog/54yyyu/zotero-mcp/zotero-mcp/tools.yaml",
+          "line": 213,
+          "column": 14,
+          "isOutlier": false,
+          "confidence": 0.6099999999999999
+        },
+        {
+          "file": "catalog/54yyyu/zotero-mcp/zotero-mcp/tools.yaml",
+          "line": 228,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.6099999999999999
+        },
+        {
+          "file": "catalog/54yyyu/zotero-mcp/zotero-mcp/tools.yaml",
+          "line": 248,
+          "column": 49,
+          "isOutlier": false,
+          "confidence": 0.6099999999999999
+        },
+        {
+          "file": "catalog/54yyyu/zotero-mcp/zotero-mcp/tools.yaml",
+          "line": 253,
+          "column": 11,
+          "isOutlier": false,
+          "confidence": 0.6099999999999999
+        },
+        {
+          "file": "catalog/54yyyu/zotero-mcp/zotero-mcp/tools.yaml",
+          "line": 267,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.6099999999999999
+        },
+        {
+          "file": "catalog/66julienmartin/mcp-server-qwen_max/mcp-server-qwen_max/listing.yaml",
+          "line": 2,
+          "column": 35,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/7gugu/whistle-mcp/whistle-mcp/listing.yaml",
+          "line": 3,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.6533333333333333
+        },
+        {
+          "file": "catalog/7gugu/whistle-mcp/whistle-mcp/listing.yaml",
+          "line": 10,
+          "column": 17,
+          "isOutlier": false,
+          "confidence": 0.6533333333333333
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-01-31T20:08:15.460Z",
+        "lastSeen": "2026-01-31T20:08:15.460Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "describe-naming"
+        ]
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "06e7d3c699fd8e14",
+      "subcategory": "test-co-location",
+      "name": "Test Co-Location Detector",
+      "description": "Learns test co-location patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/test-co-location",
+          "patternId": "testing/test-co-location/unknown"
+        }
+      },
+      "confidence": {
+        "frequency": 1,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 1687,
+        "score": 0.77,
+        "level": "medium"
+      },
+      "locations": [
+        {
+          "file": "catalog/0xdaef0f/job-searchoor/job-searchoor/listing.yaml",
+          "line": 7,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xdaef0f/job-searchoor/job-searchoor/listing.yaml",
+          "line": 9,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xdwong/sui-mcp/sui-mcp/listing.yaml",
+          "line": 9,
+          "column": 17,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xdwong/sui-mcp/sui-mcp/tools.yaml",
+          "line": 12,
+          "column": 15,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xdwong/sui-mcp/sui-mcp/tools.yaml",
+          "line": 33,
+          "column": 15,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xdwong/sui-mcp/sui-mcp/tools.yaml",
+          "line": 60,
+          "column": 15,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xhijo/mcp_twitter/mcp_twitter/tools.yaml",
+          "line": 15,
+          "column": 27,
+          "isOutlier": false,
+          "confidence": 0.6533333333333333
+        },
+        {
+          "file": "catalog/0xhijo/mcp_twitter/mcp_twitter/tools.yaml",
+          "line": 43,
+          "column": 22,
+          "isOutlier": false,
+          "confidence": 0.6533333333333333
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 5,
+          "column": 33,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 29,
+          "column": 61,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 53,
+          "column": 34,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 79,
+          "column": 35,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 105,
+          "column": 38,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 131,
+          "column": 33,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 155,
+          "column": 35,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 181,
+          "column": 34,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 207,
+          "column": 33,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 231,
+          "column": 41,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 257,
+          "column": 33,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 281,
+          "column": 39,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 307,
+          "column": 59,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 333,
+          "column": 36,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/0xpratikpatil/nmapmcp/nmapmcp/tools.yaml",
+          "line": 359,
+          "column": 29,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1282saa/mcp_style/mcp_style/listing.yaml",
+          "line": 3,
+          "column": 27,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1282saa/mcp_style/mcp_style/listing.yaml",
+          "line": 9,
+          "column": 19,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/1282saa/mcp_style/mcp_style/server.yaml",
+          "line": 13,
+          "column": 49,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/153913232a/department-vue/department-vue/listing.yaml",
+          "line": 3,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/153913232a/department-vue/department-vue/listing.yaml",
+          "line": 9,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/153913232a/department-vue/department-vue/server.yaml",
+          "line": 11,
+          "column": 60,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/153913232a/webpack-vue/webpack-vue/listing.yaml",
+          "line": 2,
+          "column": 72,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/153913232a/webpack-vue/webpack-vue/server.yaml",
+          "line": 12,
+          "column": 23,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/199-bio/mcp-wait-timer/mcp-wait-timer/listing.yaml",
+          "line": 2,
+          "column": 38,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/199-bio/mcp-wait-timer/mcp-wait-timer/tools.yaml",
+          "line": 3,
+          "column": 30,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/21st-dev/magic-mcp/magic-mcp/tools.yaml",
+          "line": 32,
+          "column": 34,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/21st-dev/magic-mcp/magic-mcp/tools.yaml",
+          "line": 43,
+          "column": 9,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/24mlight/a-share-mcp-is-just-i-need/a-share-mcp-is-just-i-need/server.yaml",
+          "line": 13,
+          "column": 67,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/24mlight/a-share-mcp-is-just-i-need/a-share-mcp-is-just-i-need/tools.yaml",
+          "line": 47,
+          "column": 45,
+          "isOutlier": false,
+          "confidence": 0.7116666666666667
+        },
+        {
+          "file": "catalog/24mlight/a-share-mcp-is-just-i-need/a-share-mcp-is-just-i-need/tools.yaml",
+          "line": 106,
+          "column": 52,
+          "isOutlier": false,
+          "confidence": 0.7116666666666667
+        },
+        {
+          "file": "catalog/24mlight/a-share-mcp-is-just-i-need/a-share-mcp-is-just-i-need/tools.yaml",
+          "line": 470,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.7116666666666667
+        },
+        {
+          "file": "catalog/24mlight/a-share-mcp-is-just-i-need/a-share-mcp-is-just-i-need/tools.yaml",
+          "line": 514,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.7116666666666667
+        },
+        {
+          "file": "catalog/24mlight/a-share-mcp-is-just-i-need/a-share-mcp-is-just-i-need/tools.yaml",
+          "line": 679,
+          "column": 59,
+          "isOutlier": false,
+          "confidence": 0.7116666666666667
+        },
+        {
+          "file": "catalog/2emma-zhou/work-related/work-related/server.yaml",
+          "line": 12,
+          "column": 31,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/2geonhyup/dart-mcp-test/dart-mcp-test/server.yaml",
+          "line": 5,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.6533333333333333
+        },
+        {
+          "file": "catalog/2geonhyup/dart-mcp-test/dart-mcp-test/tools.yaml",
+          "line": 260,
+          "column": 11,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/2geonhyup/dart-mcp-test/dart-mcp-test/tools.yaml",
+          "line": 280,
+          "column": 14,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/302ai/302_sandbox_mcp/302_sandbox_mcp/listing.yaml",
+          "line": 3,
+          "column": 43,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/302ai/302_sandbox_mcp/sandbox_mcp/tools.yaml",
+          "line": 39,
+          "column": 14,
+          "isOutlier": false,
+          "confidence": 0.7116666666666667
+        },
+        {
+          "file": "catalog/302ai/302_sandbox_mcp/sandbox_mcp/tools.yaml",
+          "line": 79,
+          "column": 48,
+          "isOutlier": false,
+          "confidence": 0.7116666666666667
+        },
+        {
+          "file": "catalog/302ai/302_sandbox_mcp/sandbox_mcp/tools.yaml",
+          "line": 114,
+          "column": 32,
+          "isOutlier": false,
+          "confidence": 0.7116666666666667
+        },
+        {
+          "file": "catalog/302ai/302_sandbox_mcp/sandbox_mcp/tools.yaml",
+          "line": 152,
+          "column": 50,
+          "isOutlier": false,
+          "confidence": 0.7116666666666667
+        },
+        {
+          "file": "catalog/302ai/302_sandbox_mcp/sandbox_mcp/tools.yaml",
+          "line": 208,
+          "column": 47,
+          "isOutlier": false,
+          "confidence": 0.7116666666666667
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 342,
+          "column": 68,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/3a3/fujitsu-sdt-mcp/fujitsu-sdt-mcp/tools.yaml",
+          "line": 415,
+          "column": 59,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/54yyyu/zotero-mcp/zotero-mcp/tools.yaml",
+          "line": 31,
+          "column": 46,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/54yyyu/zotero-mcp/zotero-mcp/tools.yaml",
+          "line": 69,
+          "column": 37,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/54yyyu/zotero-mcp/zotero-mcp/tools.yaml",
+          "line": 86,
+          "column": 65,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/54yyyu/zotero-mcp/zotero-mcp/tools.yaml",
+          "line": 189,
+          "column": 44,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/5ajaki/safe-mcp-server/safe-mcp-server/tools.yaml",
+          "line": 19,
+          "column": 35,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/6/mcp-server-rubygems/mcp-server-rubygems/listing.yaml",
+          "line": 2,
+          "column": 27,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/6/mcp-server-rubygems/mcp-server-rubygems/server.yaml",
+          "line": 11,
+          "column": 49,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/6/mcp-server-rubygems/mcp-server-rubygems/tools.yaml",
+          "line": 41,
+          "column": 50,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/6/mcp-server-rubygems/mcp-server-rubygems/tools.yaml",
+          "line": 60,
+          "column": 44,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/6/mcp-server-rubygems/mcp-server-rubygems/tools.yaml",
+          "line": 75,
+          "column": 46,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/6/mcp-server-rubygems/mcp-server-rubygems/tools.yaml",
+          "line": 90,
+          "column": 38,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/7gugu/whistle-mcp/whistle-mcp/listing.yaml",
+          "line": 3,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/7gugu/whistle-mcp/whistle-mcp/listing.yaml",
+          "line": 10,
+          "column": 17,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/8bitsats/solana-mcp-trading-server/solana-mcp-trading-server/listing.yaml",
+          "line": 9,
+          "column": 28,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/8bitsats/solana_tracker_mcp_server/solana_tracker_mcp_server/listing.yaml",
+          "line": 11,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/8bitsats/solana_tracker_mcp_server/solana_tracker_mcp_server/server.yaml",
+          "line": 13,
+          "column": 14,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/aakarsh-sasi/memory-bank-mcp/memory-bank-mcp/tools.yaml",
+          "line": 3,
+          "column": 50,
+          "isOutlier": false,
+          "confidence": 0.6533333333333333
+        },
+        {
+          "file": "catalog/aaronsb/apptio-target-process-mcp/apptio-target-process-mcp/tools.yaml",
+          "line": 26,
+          "column": 15,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/aaronsb/apptio-target-process-mcp/apptio-target-process-mcp/tools.yaml",
+          "line": 27,
+          "column": 15,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/aaronsb/apptio-target-process-mcp/apptio-target-process-mcp/tools.yaml",
+          "line": 89,
+          "column": 15,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/aaronsb/apptio-target-process-mcp/apptio-target-process-mcp/tools.yaml",
+          "line": 90,
+          "column": 15,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/aaronsb/apptio-target-process-mcp/apptio-target-process-mcp/tools.yaml",
+          "line": 137,
+          "column": 15,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/aaronsb/apptio-target-process-mcp/apptio-target-process-mcp/tools.yaml",
+          "line": 138,
+          "column": 15,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/aaronsb/apptio-target-process-mcp/apptio-target-process-mcp/tools.yaml",
+          "line": 187,
+          "column": 15,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/aaronsb/apptio-target-process-mcp/apptio-target-process-mcp/tools.yaml",
+          "line": 188,
+          "column": 15,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/aaronsb/apptio-target-process-mcp/apptio-target-process-mcp/tools.yaml",
+          "line": 68,
+          "column": 35,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/aaronsb/google-workspace-mcp/gsuite-mcp/listing.yaml",
+          "line": 8,
+          "column": 14,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/aaronsb/jira-insights-mcp/jira-insights-mcp/tools.yaml",
+          "line": 153,
+          "column": 13,
+          "isOutlier": true,
+          "confidence": 0.595,
+          "outlierReason": "Value below IQR lower bound"
+        },
+        {
+          "file": "catalog/aashari/boilerplate-mcp-server/boilerplate-mcp-server/tools.yaml",
+          "line": 3,
+          "column": 38,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/aashari/mcp-server-atlassian-bitbucket/mcp-server-atlassian-bitbucket/tools.yaml",
+          "line": 12,
+          "column": 65,
+          "isOutlier": false,
+          "confidence": 0.7262500000000001
+        },
+        {
+          "file": "catalog/aashari/mcp-server-atlassian-bitbucket/mcp-server-atlassian-bitbucket/tools.yaml",
+          "line": 46,
+          "column": 40,
+          "isOutlier": false,
+          "confidence": 0.7262500000000001
+        },
+        {
+          "file": "catalog/aashari/mcp-server-atlassian-bitbucket/mcp-server-atlassian-bitbucket/tools.yaml",
+          "line": 68,
+          "column": 71,
+          "isOutlier": false,
+          "confidence": 0.7262500000000001
+        },
+        {
+          "file": "catalog/aashari/mcp-server-atlassian-bitbucket/mcp-server-atlassian-bitbucket/tools.yaml",
+          "line": 83,
+          "column": 34,
+          "isOutlier": false,
+          "confidence": 0.7262500000000001
+        },
+        {
+          "file": "catalog/aashari/mcp-server-atlassian-bitbucket/mcp-server-atlassian-bitbucket/tools.yaml",
+          "line": 89,
+          "column": 77,
+          "isOutlier": false,
+          "confidence": 0.7262500000000001
+        },
+        {
+          "file": "catalog/aashari/mcp-server-atlassian-bitbucket/mcp-server-atlassian-bitbucket/tools.yaml",
+          "line": 151,
+          "column": 40,
+          "isOutlier": false,
+          "confidence": 0.7262500000000001
+        },
+        {
+          "file": "catalog/aashari/mcp-server-atlassian-bitbucket/mcp-server-atlassian-bitbucket/tools.yaml",
+          "line": 173,
+          "column": 71,
+          "isOutlier": false,
+          "confidence": 0.7262500000000001
+        },
+        {
+          "file": "catalog/aashari/mcp-server-atlassian-bitbucket/mcp-server-atlassian-bitbucket/tools.yaml",
+          "line": 185,
+          "column": 17,
+          "isOutlier": false,
+          "confidence": 0.7262500000000001
+        },
+        {
+          "file": "catalog/aashari/mcp-server-atlassian-bitbucket/mcp-server-atlassian-bitbucket/tools.yaml",
+          "line": 194,
+          "column": 32,
+          "isOutlier": false,
+          "confidence": 0.7262500000000001
+        },
+        {
+          "file": "catalog/aashari/mcp-server-atlassian-bitbucket/mcp-server-atlassian-bitbucket/tools.yaml",
+          "line": 200,
+          "column": 86,
+          "isOutlier": false,
+          "confidence": 0.7262500000000001
+        },
+        {
+          "file": "catalog/aashari/mcp-server-atlassian-bitbucket/mcp-server-atlassian-bitbucket/tools.yaml",
+          "line": 202,
+          "column": 46,
+          "isOutlier": false,
+          "confidence": 0.7262500000000001
+        },
+        {
+          "file": "catalog/aashari/mcp-server-atlassian-bitbucket/mcp-server-atlassian-bitbucket/tools.yaml",
+          "line": 258,
+          "column": 31,
+          "isOutlier": false,
+          "confidence": 0.7262500000000001
+        },
+        {
+          "file": "catalog/aashari/mcp-server-atlassian-bitbucket/mcp-server-atlassian-bitbucket/tools.yaml",
+          "line": 267,
+          "column": 40,
+          "isOutlier": false,
+          "confidence": 0.7262500000000001
+        },
+        {
+          "file": "catalog/aashari/mcp-server-atlassian-bitbucket/mcp-server-atlassian-bitbucket/tools.yaml",
+          "line": 287,
+          "column": 35,
+          "isOutlier": false,
+          "confidence": 0.7262500000000001
+        },
+        {
+          "file": "catalog/aashari/mcp-server-atlassian-bitbucket/mcp-server-atlassian-bitbucket/tools.yaml",
+          "line": 292,
+          "column": 62,
+          "isOutlier": false,
+          "confidence": 0.7262500000000001
+        },
+        {
+          "file": "catalog/aashari/mcp-server-atlassian-bitbucket/mcp-server-atlassian-bitbucket/tools.yaml",
+          "line": 306,
+          "column": 31,
+          "isOutlier": false,
+          "confidence": 0.7262500000000001
+        },
+        {
+          "file": "catalog/aashari/mcp-server-atlassian-bitbucket/mcp-server-atlassian-bitbucket/tools.yaml",
+          "line": 311,
+          "column": 31,
+          "isOutlier": false,
+          "confidence": 0.7262500000000001
+        },
+        {
+          "file": "catalog/aashari/mcp-server-atlassian-bitbucket/mcp-server-atlassian-bitbucket/tools.yaml",
+          "line": 320,
+          "column": 26,
+          "isOutlier": false,
+          "confidence": 0.7262500000000001
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-01-31T20:08:15.464Z",
+        "lastSeen": "2026-01-31T20:08:15.464Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "test-co-location"
+        ]
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "c8ab2b791aec4593",
+      "subcategory": "setup-teardown",
+      "name": "Setup/Teardown Detector",
+      "description": "Learns test setup/teardown patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/setup-teardown",
+          "patternId": "testing/setup-teardown/function_call"
+        }
+      },
+      "confidence": {
+        "frequency": 0.04,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 2,
+        "score": 0.8825,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "catalog/antonioevans/railway-mcp/railway-mcp/tools.yaml",
+          "line": 284,
+          "column": 21,
+          "isOutlier": false,
+          "confidence": 0.8825
+        },
+        {
+          "file": "catalog/jason-tan-swe/railway-mcp/railway-mcp/tools.yaml",
+          "line": 284,
+          "column": 21,
+          "isOutlier": false,
+          "confidence": 0.8825
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-01-31T20:08:15.534Z",
+        "lastSeen": "2026-01-31T20:08:15.534Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "setup-teardown"
+        ]
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "6f48380a7e5a3726",
+      "subcategory": "mock-patterns",
+      "name": "Mock Patterns Detector",
+      "description": "Learns mocking patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/mock-patterns",
+          "patternId": "testing/mock-patterns/unknown"
+        }
+      },
+      "confidence": {
+        "frequency": 0.76,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 23,
+        "score": 0.77,
+        "level": "medium"
+      },
+      "locations": [
+        {
+          "file": "catalog/cyreslab-ai/nessus-mcp-server/nessus-mcp-server/listing.yaml",
+          "line": 8,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/cyreslab-ai/nessus-mcp-server/nessus-mcp-server/server.yaml",
+          "line": 13,
+          "column": 64,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/ejb503/systemprompt-mcp-interview/systemprompt-mcp-interview/listing.yaml",
+          "line": 5,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/fakepixels/base-mcp-server/base-mcp-server/server.yaml",
+          "line": 6,
+          "column": 10,
+          "isOutlier": true,
+          "confidence": 0.595,
+          "outlierReason": "Value below IQR lower bound"
+        },
+        {
+          "file": "catalog/freebeiro/postman-mcp-server/postman-mcp-server/listing.yaml",
+          "line": 1,
+          "column": 55,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/freebeiro/postman-mcp-server/postman-mcp-server/listing.yaml",
+          "line": 5,
+          "column": 12,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/freebeiro/postman-mcp-server/postman-mcp-server/server.yaml",
+          "line": 9,
+          "column": 17,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/freebeiro/postman-mcp-server/postman-mcp-server/server.yaml",
+          "line": 10,
+          "column": 71,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/gdli6177/mcp-prompt-server/mcp-prompt-server/tools.yaml",
+          "line": 116,
+          "column": 30,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/jhj0517/mcp-python-tutorial/mcp-python-tutorial/listing.yaml",
+          "line": 2,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/jhj0517/mcp-python-tutorial/mcp-python-tutorial/server.yaml",
+          "line": 11,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/magicuidesign/mcp/magicui-mcp/listing.yaml",
+          "line": 7,
+          "column": 19,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/magicuidesign/mcp/magicui-mcp/server.yaml",
+          "line": 11,
+          "column": 42,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/magicuidesign/mcp/mcp/listing.yaml",
+          "line": 1,
+          "column": 51,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/magicuidesign/mcp/mcp/listing.yaml",
+          "line": 7,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/magicuidesign/mcp/mcp/server.yaml",
+          "line": 10,
+          "column": 66,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/pingtouges/swagger-faker/swagger-faker/listing.yaml",
+          "line": 1,
+          "column": 23,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/pingtouges/swagger-faker/swagger-faker/listing.yaml",
+          "line": 1,
+          "column": 48,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/pingtouges/swagger-faker/swagger-faker/listing.yaml",
+          "line": 5,
+          "column": 14,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/pingtouges/swagger-faker/swagger-faker/listing.yaml",
+          "line": 6,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/pingtouges/swagger-faker/swagger-faker/server.yaml",
+          "line": 10,
+          "column": 25,
+          "isOutlier": false,
+          "confidence": 0.6199999999999999
+        },
+        {
+          "file": "catalog/pingtouges/swagger-faker/swagger-faker/server.yaml",
+          "line": 10,
+          "column": 47,
+          "isOutlier": false,
+          "confidence": 0.6199999999999999
+        },
+        {
+          "file": "catalog/pingtouges/swagger-faker/swagger-faker/server.yaml",
+          "line": 5,
+          "column": 17,
+          "isOutlier": false,
+          "confidence": 0.6199999999999999
+        },
+        {
+          "file": "catalog/pingtouges/swagger-faker/swagger-faker/server.yaml",
+          "line": 9,
+          "column": 17,
+          "isOutlier": false,
+          "confidence": 0.6199999999999999
+        },
+        {
+          "file": "catalog/privsim/mcp-test-runner/mcp-test-runner/listing.yaml",
+          "line": 8,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/rhitune2/mock-data-mcp/mock-data-mcp/listing.yaml",
+          "line": 1,
+          "column": 35,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/rhitune2/mock-data-mcp/mock-data-mcp/listing.yaml",
+          "line": 5,
+          "column": 14,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/rhitune2/mock-data-mcp/mock-data-mcp/listing.yaml",
+          "line": 6,
+          "column": 11,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/rhitune2/mock-data-mcp/mock-data-mcp/server.yaml",
+          "line": 5,
+          "column": 9,
+          "isOutlier": false,
+          "confidence": 0.6299999999999999
+        },
+        {
+          "file": "catalog/rhitune2/mock-data-mcp/mock-data-mcp/server.yaml",
+          "line": 9,
+          "column": 9,
+          "isOutlier": false,
+          "confidence": 0.6299999999999999
+        },
+        {
+          "file": "catalog/rhitune2/mock-data-mcp/mock-data-mcp/server.yaml",
+          "line": 10,
+          "column": 35,
+          "isOutlier": false,
+          "confidence": 0.6299999999999999
+        },
+        {
+          "file": "catalog/samllpigyandong/revit_mcp/revit_mcp/listing.yaml",
+          "line": 8,
+          "column": 17,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/samuelvinay91/autospectra-mcp-server/autospectra-mcp-server/listing.yaml",
+          "line": 11,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/samuelvinay91/autospectra-mcp-server/autospectra-mcp-server/tools.yaml",
+          "line": 186,
+          "column": 25,
+          "isOutlier": false,
+          "confidence": 0.72
+        },
+        {
+          "file": "catalog/samuelvinay91/autospectra-mcp-server/autospectra-mcp-server/tools.yaml",
+          "line": 199,
+          "column": 41,
+          "isOutlier": false,
+          "confidence": 0.72
+        },
+        {
+          "file": "catalog/samuelvinay91/autospectra-mcp-server/autospectra-mcp-server/tools.yaml",
+          "line": 202,
+          "column": 24,
+          "isOutlier": false,
+          "confidence": 0.72
+        },
+        {
+          "file": "catalog/szypetike/weather-mcp-server/weather-mcp-server/listing.yaml",
+          "line": 3,
+          "column": 6,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/szypetike/weather-mcp-server/weather-mcp-server/listing.yaml",
+          "line": 8,
+          "column": 17,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "catalog/szypetike/weather-mcp-server/weather-mcp-server/server.yaml",
+          "line": 12,
+          "column": 19,
+          "isOutlier": false,
+          "confidence": 0.77
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-01-31T20:08:15.535Z",
+        "lastSeen": "2026-01-31T20:08:15.535Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "mock-patterns"
+        ]
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "a3c395521eccf320",
+      "subcategory": "mock-patterns",
+      "name": "Mock Patterns Detector",
+      "description": "Learns mocking patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/mock-patterns",
+          "patternId": "testing/mock-patterns/conditional"
+        }
+      },
+      "confidence": {
+        "frequency": 0.1,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 3,
+        "score": 0.83,
+        "level": "medium"
+      },
+      "locations": [
+        {
+          "file": "catalog/fakepixels/base-mcp-server/base-mcp-server/server.yaml",
+          "line": 1,
+          "column": 13,
+          "isOutlier": true,
+          "confidence": 0.7949999999999999,
+          "outlierReason": "Value below IQR lower bound"
+        },
+        {
+          "file": "catalog/pingtouges/swagger-faker/swagger-faker/server.yaml",
+          "line": 1,
+          "column": 32,
+          "isOutlier": false,
+          "confidence": 0.82
+        },
+        {
+          "file": "catalog/pingtouges/swagger-faker/swagger-faker/server.yaml",
+          "line": 1,
+          "column": 46,
+          "isOutlier": false,
+          "confidence": 0.82
+        },
+        {
+          "file": "catalog/rhitune2/mock-data-mcp/mock-data-mcp/server.yaml",
+          "line": 1,
+          "column": 22,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "catalog/rhitune2/mock-data-mcp/mock-data-mcp/server.yaml",
+          "line": 1,
+          "column": 36,
+          "isOutlier": false,
+          "confidence": 0.83
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-01-31T20:08:15.535Z",
+        "lastSeen": "2026-01-31T20:08:15.535Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "mock-patterns"
+        ]
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "0e0003c985a32c75",
+      "subcategory": "fixture-patterns",
+      "name": "Fixture Patterns Detector",
+      "description": "Learns test fixture patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/fixture-patterns",
+          "patternId": "testing/fixture-patterns/type_annotation"
+        }
+      },
+      "confidence": {
+        "frequency": 0.02,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 1,
+        "score": 0.8022916666666666,
+        "level": "medium"
+      },
+      "locations": [
+        {
+          "file": "catalog/jzinno/biomart-mcp/biomart-mcp/tools.yaml",
+          "line": 8,
+          "column": 41,
+          "isOutlier": false,
+          "confidence": 0.8022916666666666
+        },
+        {
+          "file": "catalog/jzinno/biomart-mcp/biomart-mcp/tools.yaml",
+          "line": 8,
+          "column": 70,
+          "isOutlier": false,
+          "confidence": 0.8022916666666666
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-01-31T20:08:15.535Z",
+        "lastSeen": "2026-01-31T20:08:15.535Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "fixture-patterns"
+        ]
+      },
+      "severity": "info",
+      "autoFixable": false
+    }
+  ],
+  "lastUpdated": "2026-02-01T04:20:19.930Z",
+  "checksum": "6e3960786905d180"
+}
